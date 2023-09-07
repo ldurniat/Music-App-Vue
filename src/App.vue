@@ -1,7 +1,7 @@
 <script setup>
 import { reactive } from 'vue'
 
-const current = reactive({ title: 'SONG TITLE' })
+const current = reactive({})
 const songs   = [
     { 
         title: 'Grateful', 
