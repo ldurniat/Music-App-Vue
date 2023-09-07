@@ -22,7 +22,11 @@ const songs   = [
     </header>
     <main>
         <section class="player">
-            <h2 class="song-title">{{ current.title}}</h2>
+            <h2 class="song-title">{{ current.title}} -
+                <span>
+                    {{ current.artist }}
+                </span>
+            </h2>
         </section>
     </main>
 </template>
