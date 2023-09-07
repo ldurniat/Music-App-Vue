@@ -13,7 +13,8 @@ const songs   = [
         artist: 'Deaf-Kev', 
         src: require('./assets/deaf-kev-invincible.mp3')
     }
-    ]
+]
+
 </script>
 
 <template>
