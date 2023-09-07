@@ -13,6 +13,21 @@
     </main>
 </template>
 
-<style scoped>
-
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body {
+    font-family: sans-serif;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-color: #212121;
+    color: #FFF; 
+}
 </style>
