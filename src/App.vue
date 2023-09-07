@@ -14,7 +14,11 @@ const songs   = [
         src: require('./assets/deaf-kev-invincible.mp3')
     }
 ]
-
+function created() {
+    current.value = songs[index]
+    player.value  = current.value.src
+    player.play()
+}
 </script>
 
 <template>
