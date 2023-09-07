@@ -2,6 +2,18 @@
 import { reactive } from 'vue'
 
 const current = reactive({ title: 'SONG TITLE' })
+const songs   = [
+    { 
+        title: 'Grateful', 
+        artist: 'Neffex', 
+        src: require('./assets/neffex-grateful.mp3')
+    },
+    { 
+        title: 'Invincible', 
+        artist: 'Deaf-Kev', 
+        src: require('./assets/deaf-kev-invincible.mp3')
+    }
+    ]
 </script>
 
 <template>
