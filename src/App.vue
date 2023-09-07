@@ -1,6 +1,7 @@
 <script setup>
 import { reactive } from 'vue'
 
+const current = reactive({ title: 'SONG TITLE' })
 </script>
 
 <template>
