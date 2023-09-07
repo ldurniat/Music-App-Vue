@@ -1,6 +1,7 @@
 <script setup>
 import { reactive } from 'vue'
 
+let index = 0
 const current = reactive({})
 const songs   = [
     { 
