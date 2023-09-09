@@ -34,6 +34,12 @@ function created() {
                     {{ current.artist }}
                 </span>
             </h2>
+            <div class="controls">
+                <button>Previous</button>
+                <button>Play</button>
+                <button>Pause</button>
+                <button>Next</button>
+            </div>
         </section>
     </main>
 </template>
