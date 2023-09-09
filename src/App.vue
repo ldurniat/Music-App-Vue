@@ -1,11 +1,11 @@
 <script setup>
 import { reactive, ref } from 'vue'
 
-let index     = 0
-let player    = new Audio()
+let index       = 0
+let player      = new Audio()
 const isPlaying = ref(false)
-const current = reactive({})
-const songs   = [
+const current   = reactive({})
+const songs     = [
     { 
         title: 'Grateful', 
         artist: 'Neffex', 
