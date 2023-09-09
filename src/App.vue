@@ -9,12 +9,12 @@ const songs     = [
     { 
         title: 'Grateful', 
         artist: 'Neffex', 
-        src: require('./assets/neffex-grateful.mp3')
+        src: './assets/neffex-grateful.mp3'
     },
     { 
         title: 'Invincible', 
         artist: 'Deaf-Kev', 
-        src: require('./assets/deaf-kev-invincible.mp3')
+        src: './assets/deaf-kev-invincible.mp3'
     }
 ]
 function created() {
