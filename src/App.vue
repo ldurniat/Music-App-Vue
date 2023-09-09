@@ -3,6 +3,7 @@ import { reactive, ref } from 'vue'
 
 let index     = 0
 let player    = new Audio()
+const isPlaying = ref(false)
 const current = reactive({})
 const songs   = [
     { 
