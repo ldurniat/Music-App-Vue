@@ -25,18 +25,18 @@ function created() {
 
 function play(song) {
     if(typeof song.src != "undefined"){
-        current = song
+        current.value = song
 
         player.src = current.src
     }
 
     player.play()
-    isPlaying = true
+    isPlaying.value = true
 }
 
 function pause() {
     player.pause()
-    isPlaying = false
+    isPlaying.value = false
 }
 </script>
 
