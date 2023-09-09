@@ -35,10 +35,10 @@ function created() {
                 </span>
             </h2>
             <div class="controls">
-                <button>Previous</button>
-                <button>Play</button>
-                <button>Pause</button>
-                <button>Next</button>
+                <button class="prev">Previous</button>
+                <button class="play">Play</button>
+                <button class="pause">Pause</button>
+                <button class="next">Next</button>
             </div>
         </section>
     </main>
