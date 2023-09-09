@@ -37,7 +37,7 @@ function created() {
             </h2>
             <div class="controls">
                 <button class="prev">Previous</button>
-                <button class="play" v-if="isPlaying">Play</button>
+                <button class="play" v-if="!isPlaying">Play</button>
                 <button class="pause" v-else>Pause</button>
                 <button class="next">Next</button>
             </div>
