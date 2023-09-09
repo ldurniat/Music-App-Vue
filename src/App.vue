@@ -33,6 +33,11 @@ function play(song) {
     player.play()
     isPlaying = true
 }
+
+function pause() {
+    player.pause()
+    isPlaying = false
+}
 </script>
 
 <template>
