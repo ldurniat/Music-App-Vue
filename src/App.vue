@@ -22,6 +22,17 @@ function created() {
     player.value  = current.value.src
     player.play()
 }
+
+function play(song) {
+    if(typeof song.src != "undefined"){
+        current = song
+
+        player.src = current.src
+    }
+
+    player.play()
+    isPlaying = true
+}
 </script>
 
 <template>
