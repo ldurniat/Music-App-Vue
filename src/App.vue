@@ -66,7 +66,7 @@ function pause() {
                 @click="play(song)" 
                 :class="(song.src == current.src) ? 'song playing' : 'song'"
             >
-            {{ song.title }}
+            {{ song.title }} - {{ song.artist }}
             </button>
         </section>
     </main>
