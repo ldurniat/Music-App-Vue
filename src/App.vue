@@ -58,6 +58,15 @@ function pause() {
                 <button class="next">Next</button>
             </div>
         </section>
+        <section class="playlist">
+            <h3>The Playlist</h3>
+            <button 
+                v-for="song in songs" 
+                :key="song.src" 
+            >
+            {{ song.title }}
+            </button>
+        </section>
     </main>
 </template>
 
