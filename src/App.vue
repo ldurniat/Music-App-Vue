@@ -38,6 +38,16 @@ function pause() {
     player.pause()
     isPlaying.value = false
 }
+
+function previous() {
+    index--
+    if(index < 0){
+        index = songs.length - 1
+    }
+
+    current.value = songs[index]
+    play(current.value)
+}
 </script>
 
 <template>
@@ -52,7 +62,7 @@ function pause() {
                 </span>
             </h2>
             <div class="controls">
-                <button class="prev">Previous</button>
+                <button class="prev" @click="previous">Previous</button>
                 <button class="play" v-if="!isPlaying" @click="play">Play</button>
                 <button class="pause" v-else @click="pause">Pause</button>
                 <button class="next">Next</button>
