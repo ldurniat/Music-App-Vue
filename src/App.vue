@@ -63,6 +63,7 @@ function pause() {
             <button 
                 v-for="song in songs" 
                 :key="song.src" 
+                @click="play(song)" 
             >
             {{ song.title }}
             </button>
