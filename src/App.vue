@@ -48,6 +48,16 @@ function previous() {
     current.value = songs[index]
     play(current.value)
 }
+
+function next() {
+    index++
+    if(index > songs.length - 1){
+        index = 0
+    }
+
+    current.value = songs[index]
+    play(current.value)
+}
 </script>
 
 <template>
@@ -65,7 +75,7 @@ function previous() {
                 <button class="prev" @click="previous">Previous</button>
                 <button class="play" v-if="!isPlaying" @click="play">Play</button>
                 <button class="pause" v-else @click="pause">Pause</button>
-                <button class="next">Next</button>
+                <button class="next" @click="next">Next</button>
             </div>
         </section>
         <section class="playlist">
