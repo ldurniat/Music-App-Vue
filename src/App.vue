@@ -9,12 +9,12 @@ const songs     = [
     { 
         title: 'Grateful', 
         artist: 'Neffex', 
-        src: './assets/neffex-grateful.mp3'
+        src: '/assets/neffex-grateful.mp3'
     },
     { 
         title: 'Invincible', 
         artist: 'Deaf-Kev', 
-        src: './assets/deaf-kev-invincible.mp3'
+        src: '/assets/deaf-kev-invincible.mp3'
     }
 ]
 function created() {
@@ -24,6 +24,7 @@ function created() {
 }
 
 function play(song) {
+    console.log(song.src)
     if(typeof song.src != "undefined"){
         current.value = song
 
