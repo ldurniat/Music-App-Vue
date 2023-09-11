@@ -28,7 +28,7 @@ function play(song) {
     if(typeof song.src != "undefined"){
         current.value = song
 
-        player.src = current.src
+        player.src = current.value.src
     }
 
     player.play()
