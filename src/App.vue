@@ -62,6 +62,8 @@ function next() {
     current.value = songs[index]
     play(current.value)
 }
+
+onMounted(created)
 </script>
 
 <template>
