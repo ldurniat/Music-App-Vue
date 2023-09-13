@@ -20,7 +20,7 @@ const songs     = [
 function created() {
     current.value = songs[index]
     player.value  = current.value.src
-    player.play()
+    //player.play()
 }
 
 function play(song) {
