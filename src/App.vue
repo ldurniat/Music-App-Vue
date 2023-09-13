@@ -127,4 +127,8 @@ main {
     text-transform: uppercase;
     text-align: center;
 }
+.song-title span {
+    font-weight: 400;
+    font-style: italic;
+}
 </style>
