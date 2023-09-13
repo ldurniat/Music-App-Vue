@@ -70,9 +70,9 @@ function next() {
     </header>
     <main>
         <section class="player">
-            <h2 class="song-title">{{ current.value.title}} -
+            <h2 class="song-title">{{ current.title}} -
                 <span>
-                    {{ current.value.artist }}
+                    {{ current.artist }}
                 </span>
             </h2>
             <div class="controls">
