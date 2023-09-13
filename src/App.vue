@@ -146,7 +146,7 @@ button {
     outline: none;
     cursor: pointer;
 }
-.play {
+.play, .pause {
     font-size: 20px;
     font-weight: 700;
     padding: 15px 25px;
