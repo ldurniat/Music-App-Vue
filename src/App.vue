@@ -154,4 +154,13 @@ button {
     color: #FFF;
     background-color: #CC2E5D;
 }
+.prev, .next {
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px 20px;
+    margin: 0px 15px;
+    border-radius: 6px;
+    color: #FFF;
+    background-color: #FF5858;
+}
 </style>
