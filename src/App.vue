@@ -121,7 +121,7 @@ main {
 }
 
 .song-title {
-    color: #212121;
+    color: #53565A;
     font-size: 32px;
     font-weight: 700;
     text-transform: uppercase;
