@@ -119,4 +119,12 @@ main {
     margin: 0 auto;
     padding:  25px;
 }
+
+.song-title {
+    color: #212121;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
 </style>
