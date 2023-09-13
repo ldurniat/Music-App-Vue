@@ -164,4 +164,29 @@ button {
     color: #FFF;
     background-color: #FF5858;
 }
+.playlist {
+    padding: 0px 30px;
+}
+.playlist h3 {
+    color: #212121;
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.playlist .song{
+    display: block;
+    width: 100%;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.playlist .song.hover{
+    color: #FF5858;
+}
+.playlist .song.playing{
+    color: #FFF;
+    background-image: linear-gradient(to right, #CC2E5D, #FF5858);
+}
 </style>
