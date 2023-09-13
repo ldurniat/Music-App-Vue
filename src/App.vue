@@ -32,6 +32,9 @@ function play(song) {
     }
 
     player.play()
+    player.addEventListener('ended', function(){
+        next()
+    })
     isPlaying.value = true
 }
 
