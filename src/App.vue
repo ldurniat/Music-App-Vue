@@ -19,7 +19,7 @@ const songs     = [
 ]
 function created() {
     current.value = songs[index]
-    player.value  = current.value.src
+    player.src    = current.value.src
     //player.play()
 }
 
