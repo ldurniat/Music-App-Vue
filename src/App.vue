@@ -1,10 +1,10 @@
 <script setup>
-import { reactive, ref, onMounted } from 'vue'
+import { ref, onMounted } from 'vue'
 
 let index       = 0
 let player      = new Audio()
 const isPlaying = ref(false)
-const current   = reactive({})
+const current   = ref({})
 const songs     = [
     { 
         title: 'Grateful', 
